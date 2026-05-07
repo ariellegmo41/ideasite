@@ -1,0 +1,670 @@
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negócios
+PRD COMPLETO
+Site Institucional + Portal CRM
+IDEA Hub
+Estratégia que movimenta negócios
+Objetivo do documento
+Definir de forma completa o produto digital da IDEA: site público, área restrita, CRM, aprovações, suporte, arquivos, 
+calendários, reuniões, campanhas, ações externas, treinamentos, relatórios, permissões, dados e prompt de criação no 
+Lovable.
+Versão 1.0 - Documento para desenvolvimento no Lovable
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negócios1. Visão geral do produto
+A IDEA precisa de um site institucional moderno, criativo e estratégico, que apresente a empresa, seus serviços e 
+diferenciais, mas que também funcione como uma plataforma restrita para clientes.
+O produto será um ecossistema digital de relacionamento e gestão da experiência do cliente IDEA. Ele centraliza 
+aprovações, suporte, arquivos, calendários, reuniões, campanhas, eventos, treinamentos e relatórios em um único 
+lugar.
+A plataforma deve transmitir a essência da marca: forte, moderna, jovem, criativa, estratégica e orientada a 
+resultado.
+Nome recomendado
+IDEA Hub - a central estratégica dos clientes IDEA.
+2. Objetivos de negócio
+Aumentar a percepção de valor da IDEA no mercado.
+Captar leads qualificados pelo site público.
+Organizar o relacionamento com clientes atuais.
+Reduzir mensagens perdidas e demandas soltas no WhatsApp.
+Centralizar aprovação de materiais, arquivos e calendários.
+Profissionalizar a entrega de serviços de marketing, vendas e treinamento.
+Aumentar retenção de clientes com uma experiência premium.
+Criar diferencial competitivo frente a agências e consultorias comuns.
+Permitir escala operacional com controle, histórico e visibilidade.
+3. Público-alvo e usuários
+3.1 Visitantes do site
+Empreendedores, gestores, líderes e donos de negócio.
+Lojas, clínicas, escolas, academias, empresas de serviço, comércios locais e empresas com equipe comercial.
+Empresas que precisam de marketing, vendas, treinamentos, campanhas, ações externas e eventos 
+corporativos.
+3.2 Usuários da área restrita
+Perfil Descrição Principais permissões
+Visitante Usuário não logado no site público. Conhecer a IDEA, ver serviços, baixar materiais, solicitar diagnóstico e contato.
+Cliente Empresa contratante da IDEA. Ver projetos, aprovar materiais, abrir chamados, acessar arquivos, calendários, reuniões e relatórios.
+Colaborador IDEA Equipe interna da IDEA. Gerenciar clientes atribuídos, projetos, aprovações, arquivos, chamados, calendários e relatórios.
+Administrador IDEA Usuário com acesso total. Gerenciar todos os clientes, usuários, permissões, módulos e configurações.
+4. Estrutura geral da plataforma
+Área Finalidade Resultado esperado
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negóciosSite público Apresentar a IDEA, serviços e diferenciais. Geração de autoridade e captação de leads.
+Área restrita Portal e CRM para clientes e equipe IDEA. Gestão organizada de projetos, demandas e  entregas.
+CRM interno Controle dos clientes, contratos, status e histórico.Visão operacional e comercial da carteira.
+Central de aprovações Aprovar artes, posts, legendas, campanhas e documentos.Redução de retrabalho e comunicação mais clara.
+Suporte e chamados Organizar demandas e solicitações. Controle de prazo, status e histórico.
+Calendários Postagens, eventos, reuniões, treinamentos e ações externas.Previsibilidade e alinhamento com clientes.
+5. Site público institucional
+5.1 Páginas públicas
+Página Objetivo Conteúdo principal
+Início Apresentar a proposta da IDEA e converter visitantes.Hero, serviços, diferenciais, IDEA Hub, CTA de diagnóstico.
+Sobre a IDEA Construir autoridade e conexão. História, propósito, missão, valores, manifesto, equipe e diferenciais.
+Serviços Detalhar soluções e pacotes. Marketing, comercial, treinamentos, campanhas, ações externas, eventos e assessoria.
+IDEA Hub Apresentar o portal como diferencial. Aprovações, suporte, arquivos, calendários, reuniões e relatórios.
+Diagnóstico Comercial Captar leads qualificados. O que é, o que analisa, benefícios, formulário.
+Materiais Gratuitos Gerar leads com iscas digitais. Playbook, checklist, templates e formulários de captura.
+Contato Facilitar contato e agendamento. WhatsApp, e-mail, Instagram, LinkedIn, formulário.
+5.2 Hero da página inicial
+Texto recomendado
+Marketing, vendas e desenvolvimento comercial para empresas que querem crescer de verdade.
+A IDEA une estratégia, comunicação, campanhas, ações externas, treinamentos e CRM de acompanhamento para colocar 
+empresas em movimento.
+Botões: Solicitar diagnóstico | Conhecer soluções
+5.3 Seções da página inicial
+O que fazemos: cards com Marketing Estratégico, Estruturação Comercial, Treinamentos, Campanhas, Ações  
+Externas, Eventos e Assessoria.
+Por que a IDEA é diferente: explicar que a IDEA conecta marca, vendas, equipe, campanhas e execução.
+Soluções IDEA: apresentar pacotes de serviço com CTA.
+IDEA Hub: mostrar a área do cliente como diferencial competitivo.
+Materiais gratuitos: captura de leads com playbooks e checklists.
+Chamada para diagnóstico: CTA final para agendar conversa.
+5.4 Formulários públicos
+Formulário Campos Destino
+Solicitar diagnóstico Nome, empresa, WhatsApp, e-mail, segmento, maior desafio, melhor horário.CRM de leads / e-mail / notificação interna.
+Baixar material gratuito Nome, empresa, WhatsApp, e-mail, segmento, principal desafio.CRM de leads + entrega do material.
+Contato Nome, empresa, WhatsApp, e-mail, mensagem.Notificação para equipe IDEA.
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negócios6. Área restrita - IDEA Hub
+6.1 Login e autenticação
+Tela de login com e-mail e senha.
+Recuperação de senha.
+Cadastro por convite para clientes.
+Acesso baseado em perfil: cliente, colaborador IDEA ou administrador.
+Fase futura: login com Google.
+6.2 Dashboard do cliente
+Nome da empresa e pacote contratado.
+Materiais aguardando aprovação.
+Próximas postagens.
+Próximos eventos, treinamentos e reuniões.
+Chamados abertos e status.
+Arquivos recentes.
+Campanhas em andamento.
+Relatórios disponíveis.
+Avisos da equipe IDEA.
+6.3 Dashboard interno IDEA
+Total de clientes ativos.
+Materiais pendentes de aprovação.
+Chamados abertos e urgentes.
+Postagens da semana.
+Reuniões da semana.
+Campanhas em andamento.
+Projetos atrasados.
+Clientes sem interação recente.
+Tarefas internas pendentes.
+6.4 Menu lateral da área restrita
+Dashboard
+Clientes / CRM
+Projetos
+Aprovações
+Calendário de Postagens
+Calendário de Eventos
+Chamados / Suporte
+Arquivos
+Reuniões
+Campanhas
+Ações Externas
+Treinamentos
+Relatórios
+Configurações
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negócios7. Módulos funcionais completos
+7.1 CRM de clientes
+Controlar relacionamento, status, pacote contratado, histórico e oportunidades comerciais.
+Funcionalidades
+Cadastrar, editar, filtrar e arquivar clientes.
+Registrar contatos, reuniões e observações internas.
+Acompanhar pacote contratado, valor mensal, datas e status.
+Exibir timeline com interações, reuniões, arquivos, chamados, campanhas, aprovações e relatórios.
+Campos principais
+Nome da empresa
+CNPJ
+Segmento
+Cidade
+Responsável
+E-mail
+WhatsApp
+Pacote contratado
+Valor mensal
+Data de início
+Data de renovação
+Status
+Consultor responsável
+Observações
+7.2 Projetos
+Organizar todos os projetos e entregas por cliente.
+Funcionalidades
+Criar projetos vinculados a clientes.
+Definir tipo, prazo, prioridade, responsável e status.
+Vincular arquivos, comentários, aprovações e tarefas.
+Campos principais
+Nome do projeto
+Cliente
+Tipo
+Descrição
+Responsável IDEA
+Início
+Prazo
+Status
+Prioridade
+Arquivos
+Comentários
+7.3 Aprovação de materiais
+Permitir que clientes aprovem ou solicitem ajustes em peças e conteúdos.
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negóciosFuncionalidades
+Enviar artes, legendas, carrosséis, reels, campanhas e documentos.
+Cliente aprova ou solicita ajuste com comentário.
+Salvar histórico de versões.
+Notificar equipe sobre aprovações e ajustes.
+Campos principais
+Título
+Cliente
+Projeto
+Tipo de peça
+Arquivo
+Legenda
+Data prevista
+Status
+Versão
+Comentários
+7.4 Calendário de postagens
+Visualizar planejamento de conteúdo por cliente.
+Funcionalidades
+Calendário mensal, semanal e lista.
+Status por postagem.
+Vínculo com material aprovado.
+Link do post publicado após a publicação.
+Campos principais
+Título
+Cliente
+Canal
+Formato
+Data
+Legenda
+Arte
+Status
+Responsável
+Link publicado
+7.5 Calendário de eventos
+Organizar reuniões, treinamentos, ações externas e eventos corporativos.
+Funcionalidades
+Visualizar eventos por mês e semana.
+Criar checklists e anexar roteiros.
+Registrar responsáveis e participantes.
+Campos principais
+Nome
+Cliente
+Tipo
+Data
+Horário
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negóciosLocal
+Formato
+Descrição
+Responsável
+Participantes
+Checklist
+Status
+7.6 Chamados / Suporte
+Organizar solicitações de clientes e reduzir demandas soltas no WhatsApp.
+Funcionalidades
+Cliente abre chamado com categoria, prioridade e anexos.
+Equipe responde e altera status.
+Histórico completo fica salvo.
+Campos principais
+Título
+Cliente
+Solicitante
+Categoria
+Descrição
+Prioridade
+Anexos
+Responsável
+Status
+Prazo
+Comentários
+7.7 Arquivos e biblioteca
+Centralizar documentos, imagens, artes, vídeos, contratos, propostas e materiais finais.
+Funcionalidades
+Upload e download.
+Pastas por cliente e projeto.
+Visualização de imagens.
+Controle de versões e comentários.
+Campos principais
+Cliente
+Projeto
+Pasta
+Nome do arquivo
+Tipo
+URL
+Quem enviou
+Data
+7.8 Reuniões online
+Agendar e registrar reuniões estratégicas e operacionais.
+Funcionalidades
+Adicionar link Google Meet, Zoom ou Teams.
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negóciosRegistrar pauta, ata, gravação e próximos passos.
+Vincular ao cliente ou projeto.
+Campos principais
+Título
+Cliente
+Projeto
+Data
+Horário
+Duração
+Link
+Pauta
+Participantes
+Ata
+Gravação
+Status
+7.9 Campanhas comerciais
+Planejar e acompanhar campanhas de venda e relacionamento.
+Funcionalidades
+Definir objetivo, oferta, canais, mensagem e período.
+Vincular materiais e calendário.
+Registrar resultados.
+Campos principais
+Nome
+Cliente
+Objetivo
+Público
+Oferta
+Mensagem
+Canais
+Início
+Fim
+Status
+Resultados
+7.10 Ações externas
+Planejar blitz, panfletagem, ativações e ações presenciais.
+Funcionalidades
+Cadastrar local, equipe, materiais, metas e roteiro.
+Registrar leads, fotos e resultados.
+Criar follow-up pós-ação.
+Campos principais
+Nome
+Cliente
+Objetivo
+Data
+Local
+Público
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negóciosEquipe
+Materiais
+Roteiro
+Metas
+Fotos
+Resultados
+Status
+7.11 Treinamentos
+Organizar treinamentos de vendas, atendimento, liderança e desenvolvimento.
+Funcionalidades
+Cadastrar treinamento, participantes e materiais.
+Registrar lista de presença, feedback e avaliação.
+Anexar certificados e gravação.
+Campos principais
+Nome
+Cliente
+Tema
+Data
+Horário
+Formato
+Local/link
+Mentor
+Participantes
+Material
+Feedback
+Status
+7.12 Relatórios
+Entregar valor percebido e acompanhar evolução mensal.
+Funcionalidades
+Publicar relatórios por cliente e projeto.
+Registrar resultados, pontos de atenção e próximos passos.
+Anexar PDFs e apresentações.
+Campos principais
+Cliente
+Projeto
+Período
+Título
+Resumo
+O que foi feito
+Resultados
+Pontos de atenção
+Próximos passos
+Arquivo
+Responsável
+7.13 Financeiro básico
+Acompanhar contratos e pagamentos internamente.
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negóciosFuncionalidades
+Registrar pacote, valor mensal e vencimento.
+Status financeiro visível para administradores.
+Anexar boleto ou nota fiscal.
+Campos principais
+Cliente
+Pacote
+Valor
+Vencimento
+Status
+Nota fiscal
+Contrato
+7.14 Notificações
+Alertar clientes e equipe sobre ações importantes.
+Funcionalidades
+Notificações internas na plataforma.
+Fase futura: e-mail e WhatsApp.
+Marcar notificações como lidas.
+Campos principais
+Usuário
+Título
+Mensagem
+Tipo
+Lida
+Data
+8. Status, categorias e classificações
+8.1 Status de clientes
+Lead
+Proposta enviada
+Cliente ativo
+Cliente em implantação
+Cliente pausado
+Cliente encerrado
+Cliente inadimplente
+8.2 Status de projetos
+Planejado
+Em produção
+Em revisão interna
+Aguardando aprovação do cliente
+Ajustes solicitados
+Aprovado
+Publicado
+Finalizado
+Pausado
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negócios8.3 Status de aprovação
+Rascunho
+Enviado para aprovação
+Visualizado pelo cliente
+Aprovado
+Ajustes solicitados
+Ajustado e reenviado
+Finalizado
+Publicado
+8.4 Status de chamados
+Aberto
+Em análise
+Em andamento
+Aguardando cliente
+Resolvido
+Encerrado
+8.5 Prioridades
+Baixa
+Média
+Alta
+Urgente
+8.6 Categorias de chamados
+Solicitação de arte
+Ajuste em post
+Dúvida sobre campanha
+Solicitação de arquivo
+Suporte em evento
+Solicitação comercial
+Alteração de calendário
+Solicitação de reunião
+Aprovação pendente
+Dúvida financeira
+Outro
+9. Requisitos funcionais
+ID Requisito funcional
+RF01 O sistema deve possuir site institucional público com páginas de apresentação e conversão.
+RF02 O visitante deve conseguir enviar formulários de diagnóstico, contato  e materiais gratuitos.
+RF03 O sistema deve possuir autenticação por e-mail e senha.
+RF04 O administrador deve conseguir cadastrar e gerenciar clientes.
+RF05 O cliente deve visualizar dashboard com projetos, aprovações, chamados, arquivos, calendários e relatórios.
+RF06 A equipe IDEA deve conseguir criar projetos vinculados a clientes.
+RF07 Clientes devem conseguir aprovar ou solicitar ajustes em materiais enviados.
+RF08 Projetos, aprovações e chamados devem permitir comentários.
+RF09 Clientes devem conseguir abrir chamados e acompanhar status.
+RF10 Clientes e equipe devem conseguir enviar, visualizar e baixar arquivos.
+RF11 Clientes devem visualizar calendário de postagens planejadas e 
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negóciospublicadas.
+RF12 Clientes devem visualizar calendário de eventos, treinamentos, ações externas e reuniões.
+RF13 Equipe deve conseguir cadastrar reuniões com pauta, link, ata, gravação e próximos passos.
+RF14 Equipe deve conseguir planejar e acompanhar campanhas comerciais.
+RF15 Equipe deve conseguir planejar e registrar ações externas.
+RF16 Equipe deve conseguir cadastrar treinamentos e materiais de apoio.
+RF17 Equipe deve conseguir publicar relatórios para clientes.
+RF18 Usuários devem receber notificações sobre aprovações, chamados, arquivos, reuniões e relatórios.
+RF19 Clientes só podem acessar dados da própria empresa.
+RF20 Administradores devem ter acesso total aos dados e configurações.
+10. Requisitos não funcionais
+ID Requisito não funcional
+RNF01 Design responsivo para desktop, tablet e celular.
+RNF02 Boa performance de carregamento, principalmente no dashboard e biblioteca de arquivos.
+RNF03 Segurança com autenticação, controle de permissões e isolamento de dados por cliente.
+RNF04 Interface simples, intuitiva e fácil de usar para clientes não técnicos.
+RNF05 Estrutura escalável para adicionar clientes, módulos e integrações.
+RNF06 Identidade visual alinhada à marca IDEA.
+RNF07 Organização por cliente, projeto, status e data.
+RNF08 Arquitetura preparada para integrações futuras com calendário, drive, WhatsApp, Meet, Zoom e APIs de redes sociais.
+11. Regras de negócio
+1.  Todo cliente deve estar vinculado a uma empresa.
+2.  Todo projeto deve estar vinculado a um cliente.
+3.  Todo material de aprovação deve estar vinculado a um cliente e preferencialmente a um projeto.
+4.  Cliente só pode ver dados da própria empresa.
+5.  Apenas colaboradores IDEA podem criar materiais para aprovação.
+6.  Cliente pode aprovar ou solicitar ajustes, mas não pode alterar o arquivo original.
+7.  Quando o cliente solicitar ajuste, o status do material muda para Ajustes solicitados.
+8.  Quando o cliente aprovar, o status muda para Aprovado.
+9.  Chamados urgentes devem aparecer em destaque no dashboard interno.
+10.  Todo arquivo deve registrar quem enviou e data de envio.
+11.  Todo relatório publicado deve ficar disponível no dashboard do cliente.
+12.  Reuniões realizadas devem permitir ata e próximos passos.
+12. Estrutura de dados sugerida
+Tabela Campos sugeridos
+users id, name, email, password_hash, role, company_id, avatar_url, created_at
+companies id, name, cnpj, segment, city, responsible_name, responsible_email, responsible_phone, status, package_name, monthly_value, start_date, renewal_date
+projects id, company_id, title, description, type, status, priority, responsible_user_id, start_date, due_date
+approvals id, company_id, project_id, title, type, description, file_url, caption, status, version, created_by, approved_at
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negóciosapproval_comments id, approval_id, user_id, comment, created_at
+tickets id, company_id, title, description, category, priority, status, created_by, assigned_to, due_date
+ticket_comments id, ticket_id, user_id, comment, file_url, created_at
+files id, company_id, project_id, folder, file_name, file_type, file_url, uploaded_by, created_at
+calendar_posts id, company_id, project_id, title, channel, format, caption, post_date, status, approval_id
+events id, company_id, title, type, description, date, start_time, end_time, location, meeting_link, status
+meetings id, company_id, project_id, title, date, start_time, end_time, meeting_link, agenda, notes, recording_url, status
+campaigns id, company_id, title, objective, target_audience, offer, message, channels, start_date, end_date, status, results
+external_actions id, company_id, title, objective, date, location, target_audience, team, materials, script, lead_goal, sales_goal, results, status
+trainings id, company_id, title, theme, date, time, format, location_or_link, mentor, participants, material_url, feedback, status
+reports id, company_id, project_id, title, period, summary, file_url, created_by, created_at
+notifications id, user_id, title, message, type, is_read, created_at
+13. Fluxos principais
+Fluxo de aprovação de material
+1.  Equipe IDEA cria o material.
+2.  Adiciona título, arquivo, legenda e data prevista.
+3.  Envia para aprovação.
+4.  Cliente recebe notificação.
+5.  Cliente aprova ou solicita ajuste.
+6.  Se aprovado, status muda para Aprovado.
+7.  Se ajuste solicitado, equipe recebe comentário.
+8.  Equipe sobe nova versão.
+9.  Cliente aprova versão final.
+10.  Material segue para calendário como aprovado ou agendado.
+Fluxo de chamado
+1.  Cliente abre chamado.
+2.  Seleciona categoria e prioridade.
+3.  Descreve a demanda e anexa arquivos.
+4.  Equipe IDEA recebe notificação.
+5.  Responsável assume o chamado.
+6.  Status muda para Em andamento.
+7.  Equipe responde.
+8.  Cliente confirma resolução.
+9.  Status muda para Resolvido ou Encerrado.
+Fluxo de calendário de postagens
+1.  Equipe cria postagem planejada.
+2.  Vincula ao projeto e cliente.
+3.  Adiciona data, canal, formato, legenda e arte.
+4.  Se houver aprovação, vincula o material aprovado.
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negócios5.  Cliente visualiza no calendário.
+6.  Após aprovação, status muda para Agendado.
+7.  Após publicação, status muda para Publicado.
+Fluxo de reunião
+1.  Equipe agenda reunião.
+2.  Adiciona cliente, data, horário, link e pauta.
+3.  Cliente recebe notificação.
+4.  Após reunião, equipe registra ata.
+5.  Equipe adiciona próximos passos.
+6.  Tarefas podem ser criadas a partir da reunião.
+14. MVP recomendado
+14.1 MVP público
+Página inicial
+Sobre a IDEA
+Serviços
+IDEA Hub
+Diagnóstico Comercial
+Materiais Gratuitos
+Contato
+Formulário de leads
+14.2 MVP da área restrita
+Login e permissões
+Dashboard do cliente
+Dashboard interno
+Cadastro de clientes
+Projetos
+Aprovação de materiais
+Chamados
+Arquivos
+Calendário de postagens
+Calendário de eventos e reuniões
+Relatórios simples
+Painel administrativo
+14.3 Fase 2
+Financeiro avançado
+Integração com WhatsApp Business API
+Integração com Google Drive
+Integração com Google Calendar
+Integração com Google Meet, Zoom ou Teams
+Chat interno em tempo real
+Assinatura digital
+Automação de e-mails
+Métricas de redes sociais via API
+App mobile
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negócios15. Design e identidade visual
+Elemento Direção
+Estilo Moderno, criativo, jovem, forte, escuro, premium, dinâmico e estratégico.
+Cores Preto carvão #0E0F13, grafite #1A1D22, laranja #FF5A00, coral #FF6B4A, pink #FF2DA0, off-white #FAF7F2, areia #E7DFD1.
+Tipografia Títulos em Space Grotesk Bold ou Montserrat ExtraBold; textos em Inter, Manrope ou Open Sans.
+Componentes Cards escuros, bordas arredondadas, gradientes laranja/rosa, tags coloridas, ícones lineares, dashboards visuais e calendários limpos.
+Linguagem visual Setas, movimento, brush strokes, halftone dots, contrastes fortes e sensação de ação.
+16. Integrações futuras
+Integração Uso previsto
+Google Calendar Sincronizar reuniões, eventos e treinamentos.
+Google Drive Armazenamento e organização de arquivos.
+WhatsApp Business API Notificações e atendimento integrado.
+Google Meet / Zoom / Teams Links e registros de reuniões online.
+Asaas / Mercado Pago / Stripe Cobranças, notas e status financeiro.
+Instagram / Meta API Métricas e agendamento de conteúdos em fase futura.
+E-mail transacional Envio de notificações, convites e materiais.
+17. Diferenciais comerciais do IDEA Hub
+Mensagem de venda
+Enquanto muitas empresas entregam demandas por WhatsApp e arquivos soltos, a IDEA oferece uma central exclusiva para  
+organizar tudo: aprovações, arquivos, suporte, calendários, reuniões, campanhas e resultados.
+Mais controle para o cliente.
+Mais organização para a IDEA.
+Histórico salvo de decisões e materiais.
+Aprovação mais rápida.
+Menos ruído na comunicação.
+Maior percepção de valor em cada entrega.
+Diferencial forte na proposta comercial.
+18. Prompt completo para Lovable
+Crie uma aplicação web completa chamada IDEA Hub, com site institucional público e área restrita para clientes, 
+funcionando como portal, CRM, central de aprovações, suporte, arquivos, calendários e acompanhamento de projetos.
+A marca é IDEA - Estratégia que movimenta negócios. A identidade visual deve ser moderna, jovem, criativa, forte 
+e estratégica, com visual premium. Use fundo escuro, preto carvão, grafite, laranja vibrante, coral/rosa, pink 
+elétrico e off-white. Use elementos visuais de movimento, setas, brush strokes, gradientes, cards modernos, 
+bordas arredondadas, ícones lineares e tipografia forte.
+A aplicação deve ter duas áreas: site público institucional e área restrita com login para clientes e equipe 
+IDEA.
+No site público, crie as páginas Início, Sobre a IDEA, Serviços, IDEA Hub, Diagnóstico Comercial, Materiais 
+Gratuitos e Contato. A página inicial deve apresentar a IDEA como uma empresa de marketing, vendas e 
+desenvolvimento comercial que ajuda empresas a crescerem com estratégia, campanhas, ações externas, treinamentos,  
+liderança e acompanhamento de performance. O hero deve ter o título: Marketing, vendas e desenvolvimento 
+comercial para empresas que querem crescer de verdade. O subtítulo: A IDEA une estratégia, comunicação, 
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negócioscampanhas, ações externas, treinamentos e CRM de acompanhamento para colocar empresas em movimento. Botões: 
+Solicitar diagnóstico e Conhecer soluções.
+Crie formulários para solicitar diagnóstico comercial, baixar material gratuito e entrar em contato, com campos: 
+Nome, Empresa, WhatsApp, E-mail, Segmento e Principal desafio.
+Na área restrita, crie autenticação com três tipos de usuários: Cliente, Colaborador IDEA e Administrador. O 
+cliente só pode ver dados da própria empresa. O colaborador pode gerenciar clientes atribuídos. O administrador 
+pode acessar tudo.
+Crie os módulos: Dashboard, Clientes/CRM, Projetos, Aprovações, Calendário de Postagens, Calendário de Eventos, 
+Chamados/Suporte, Arquivos, Reuniões, Campanhas, Ações Externas, Treinamentos, Relatórios e Configurações.
+O dashboard do cliente deve mostrar nome da empresa, pacote contratado, materiais aguardando aprovação, próximas 
+postagens, próximos eventos, próximas reuniões, chamados abertos, arquivos recentes, campanhas em andamento e 
+relatórios disponíveis. O dashboard interno deve mostrar total de clientes ativos, materiais pendentes, chamados 
+abertos e urgentes, postagens da semana, reuniões da semana, campanhas em andamento, projetos atrasados, clientes  
+sem interação recente e tarefas pendentes.
+Crie CRM de clientes com nome da empresa, CNPJ, segmento, cidade, responsável, e-mail, WhatsApp, pacote 
+contratado, valor mensal, data de início, data de renovação, status, consultor responsável e observações. Cada 
+cliente deve ter timeline com histórico de interações, reuniões, arquivos, chamados, campanhas, aprovações e 
+relatórios.
+Crie Projetos com nome, cliente, tipo, descrição, responsável, data de início, prazo, status, prioridade, 
+arquivos e comentários. Status: Planejado, Em produção, Em revisão interna, Aguardando aprovação do cliente, 
+Ajustes solicitados, Aprovado, Publicado, Finalizado e Pausado.
+Crie Aprovação de Materiais para posts, carrosséis, reels, stories, legendas, campanhas, anúncios, apresentações,  
+materiais impressos, flyers, banners, roteiros, e-mails marketing, peças de evento e artes de ação externa. O 
+cliente deve poder aprovar ou solicitar ajustes com comentário. Manter histórico de versões.
+Crie Calendário de Postagens mensal e semanal, com título, cliente, canal, formato, data, legenda, arte, status, 
+responsável e link publicado. Canais: Instagram, Facebook, LinkedIn, TikTok, YouTube Shorts, Blog, E-mail 
+marketing, WhatsApp e Google Meu Negócio.
+Crie Calendário de Eventos para reuniões, eventos corporativos, treinamentos, ações externas, campanhas 
+presenciais, workshops e palestras, com data, horário, local, formato, checklist, roteiro, arquivos e status.
+Crie Chamados/Suporte com título, cliente, solicitante, categoria, descrição, prioridade, anexos, responsável, 
+status, prazo e comentários. Prioridades: Baixa, Média, Alta e Urgente. Status: Aberto, Em análise, Em andamento,  
+Aguardando cliente, Resolvido e Encerrado.
+Crie Biblioteca de Arquivos por cliente e projeto, com upload, download, pastas, visualização de imagens, 
+histórico de versões e comentários. Pastas: Contratos, Propostas, Identidade visual, Logos, Fotos, Vídeos, Posts 
+aprovados, Campanhas, Relatórios, Eventos, Treinamentos, Documentos enviados pelo cliente e Materiais finais.
+Crie Reuniões com título, cliente, data, horário, duração, link, pauta, participantes, ata, gravação, próximos 
+passos e status. Crie Campanhas com objetivo, público-alvo, oferta, mensagem, canais, período, status, materiais 
+e resultados. Crie Ações Externas com objetivo, local, público, equipe, materiais, roteiro, metas, fotos e 
+resultados. Crie Treinamentos com tema, data, formato, mentor, participantes, material, lista de presença, 
+feedback e status. Crie Relatórios por cliente com período, resumo executivo, o que foi feito, resultados, pontos  
+de atenção, próximos passos e arquivo anexo.
+Crie notificações internas para material enviado para aprovação, material aprovado, ajuste solicitado, novo 
+chamado, chamado respondido, reunião agendada, reunião próxima, novo arquivo, campanha iniciada, relatório 
+publicado, evento confirmado e postagem próxima.
+Crie banco de dados com users, companies, projects, approvals, approval_comments, tickets, ticket_comments, 
+files, calendar_posts, events, meetings, campaigns, external_actions, trainings, reports e notifications.
+Garanta interface bonita, responsiva, premium, organizada, fácil de usar, com menu lateral escuro, cards 
+modernos, tags de status, filtros, kanban para projetos e aprovações, calendários limpos e controle de permissões  
+por perfil.
+19. Ordem recomendada de construção
+1.  Criar site institucional com identidade visual.
+2.  Criar login e permissões.
+IDEA Hub - PRD Site Institucional + Portal CRM | Estratégia que movimenta negócios3.  Criar cadastro de clientes e dashboard.
+4.  Criar projetos e aprovações.
+5.  Criar chamados e arquivos.
+6.  Criar calendários.
+7.  Criar reuniões e relatórios.
+8.  Criar campanhas, ações externas e treinamentos.
+9.  Adicionar automações, notificações e integrações.
+20. Critérios de aceite do MVP
+Visitante consegue navegar pelo site público e solicitar diagnóstico.
+Administrador consegue cadastrar cliente e usuário cliente.
+Cliente consegue acessar somente sua própria empresa.
+Equipe consegue criar projeto e enviar material para aprovação.
+Cliente consegue aprovar ou solicitar ajuste.
+Cliente consegue abrir chamado e anexar arquivo.
+Equipe consegue responder chamado e alterar status.
+Cliente consegue visualizar calendário de postagens e eventos.
+Equipe consegue cadastrar reunião e relatório.
+Dashboard mostra pendências principais de forma clara.
