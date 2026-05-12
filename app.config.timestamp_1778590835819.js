@@ -1,16 +1,19 @@
+// app.config.ts
 import { defineConfig } from "@tanstack/react-start/config";
 import tsconfigPaths from "vite-tsconfig-paths";
-
-export default defineConfig({
+var app_config_default = defineConfig({
   server: {
     preset: "vercel",
-    entry: "./src/server.ts",
+    entry: "./src/server.ts"
   },
   vite: {
     plugins: [
       tsconfigPaths({
-        projects: ["./tsconfig.json"],
-      }),
-    ],
-  },
+        projects: ["./tsconfig.json"]
+      })
+    ]
+  }
 });
+export {
+  app_config_default as default
+};
