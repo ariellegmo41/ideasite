@@ -7,7 +7,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "build:dev": "vite build --mode development",
-    "build:vercel": "cross-env NITRO_PRESET=vercel-edge vinxi build",
+    "build:vercel": "cross-env NITRO_PRESET=vercel-edge vinxi build && rm .vercel/output/static/index.html",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write ."
