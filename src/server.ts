@@ -1,88 +1,21 @@
-import "./lib/error-capture";
+import { createStartHandler, defaultRenderHandler } from "@tanstack/react-start/server";
+import { getRouter } from "./router";
 
-import { consumeLastCapturedError } from "./lib/error-capture";
-import { renderErrorPage } from "./lib/error-page";
-
-type ServerEntry = {
-  fetch: (request: Request, env: unknown, ctx: unknown) => Promise<Response> | Response;
-};
-
-let serverEntryPromise: Promise<ServerEntry> | undefined;
-
-async function getServerEntry(): Promise<ServerEntry> {
-  if (!serverEntryPromise) {
-    serverEntryPromise = import("@tanstack/react-start/server-entry").then(
-      (m) => ((m as { default?: ServerEntry }).default ?? (m as unknown as ServerEntry)),
-    );
-  }
-  return serverEntryPromise;
-}
-
-function brandedErrorResponse(): Response {
-  return new Response(renderErrorPage(), {
-    status: 500,
-    headers: { "content-type": "text/html; charset=utf-8" },
-  });
-}
-
-function isCatastrophicSsrErrorBody(body: string, responseStatus: number): boolean {
-  let payload: unknown;
-  try {
-    payload = JSON.parse(body);
-  } catch {
-    return false;
-  }
-
-  if (!payload || Array.isArray(payload) || typeof payload !== "object") {
-    return false;
-  }
-
-  const fields = payload as Record<string, unknown>;
-  const expectedKeys = new Set(["message", "status", "unhandled"]);
-  if (!Object.keys(fields).every((key) => expectedKeys.has(key))) {
-    return false;
-  }
-
-  return (
-    fields.unhandled === true &&
-    fields.message === "HTTPError" &&
-    (fields.status === undefined || fields.status === responseStatus)
-  );
-}
-
-// h3 swallows in-handler throws into a normal 500 Response with body
-// {"unhandled":true,"message":"HTTPError"} — try/catch alone never fires for those.
-async function normalizeCatastrophicSsrResponse(response: Response): Promise<Response> {
-  if (response.status < 500) return response;
-  const contentType = response.headers.get("content-type") ?? "";
-  if (!contentType.includes("application/json")) return response;
-
-  const body = await response.clone().text();
-  if (!isCatastrophicSsrErrorBody(body, response.status)) {
-    return response;
-  }
-
-  console.error(consumeLastCapturedError() ?? new Error(`h3 swallowed SSR error: ${body}`));
-  return brandedErrorResponse();
-}
-
-console.log("[Server] Module loaded at top level");
+const handler = createStartHandler({
+  createRouter: getRouter,
+  renderHandler: defaultRenderHandler,
+});
 
 export default {
   async fetch(request: Request, ...args: any[]) {
-    if (request.url.includes("/_debug")) {
-      return new Response("Server is alive!", { status: 200 });
-    }
-    console.log(`[Server] Request: ${request.method} ${request.url}`);
+    console.log(`[Server] Handling request: ${request.url}`);
     try {
-      const [env, ctx] = args;
-      const handler = await getServerEntry();
-      const response = await handler.fetch(request, env, ctx);
-      console.log(`[Server] Response Status: ${response.status}`);
-      return await normalizeCatastrophicSsrResponse(response);
+      const response = await handler(request, ...args);
+      console.log(`[Server] Response status: ${response.status}`);
+      return response;
     } catch (error) {
-      console.error("[Server] Error:", error);
-      return brandedErrorResponse();
+      console.error("[Server] Critical Error:", error);
+      return new Response("Internal Server Error", { status: 500 });
     }
   },
 };
