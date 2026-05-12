@@ -66,8 +66,13 @@ async function normalizeCatastrophicSsrResponse(response: Response): Promise<Res
   return brandedErrorResponse();
 }
 
+console.log("[Server] Module loaded at top level");
+
 export default {
   async fetch(request: Request, ...args: any[]) {
+    if (request.url.includes("/_debug")) {
+      return new Response("Server is alive!", { status: 200 });
+    }
     console.log(`[Server] Request: ${request.method} ${request.url}`);
     try {
       const [env, ctx] = args;
