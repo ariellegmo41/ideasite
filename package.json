@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "cross-env NITRO_PRESET=vercel vinxi build",
+    "build": "cross-env NITRO_PRESET=vercel vinxi build && rm .vercel/output/static/index.html",
     "build:dev": "vite build --mode development",
     "build:vercel": "npm run build",
     "preview": "vite preview",
